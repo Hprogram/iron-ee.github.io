@@ -35455,7 +35455,7 @@ return P.a7($async$zP,r)},
 VT:function(a){this.an(new T.a5t(this,a))},
 rN:function(){var s=0,r=P.a8(t.z),q=this,p,o,n,m,l,k
 var $async$rN=P.a0(function(a,b){if(a===1)return P.a5(b,r)
-while(true)switch(s){case 0:m=D.aqR("POST",P.wJ("http://192.168.0.245:3010/api/upload",0,null))
+while(true)switch(s){case 0:m=D.aqR("POST",P.wJ("http://221.146.63.149:3010/api/upload",0,null))
 l=q.r
 l.toString
 p=R.aqM("application","octet-stream")
