@@ -35630,13 +35630,16 @@ $iw:1}
 P.Mg.prototype={}
 P.Mh.prototype={}
 N.CE.prototype={
-F:function(a,b){var s,r,q,p=this,o=null,n="\uba38\uc2dc\uae30\uba38\uc2dc\uae30",m=t.w,l=b.H(m).f.a.a,k=b.H(m).f.a.b
-m=P.as(C.c.ar(127.5),15,23,56)
-s=l*0.15
-r=k*0.05
-q=t.p
-q=l>800?T.d_(H.a([T.fg(H.a([U.ji(L.aH(n,A.L(o,o,C.f,o,o,o,o,o,o,o,o,20,o,C.j,o,o,!0,o,o,o,o,o,o,o),o,o),new N.T5(),o),U.ji(L.aH(n,A.L(o,o,C.f,o,o,o,o,o,o,o,o,20,o,C.j,o,o,!0,o,o,o,o,o,o,o),o,o),new N.T6(),o),p.Fu(l)],q),C.D,C.cM,C.B),p.E_()],q),C.D,o,C.cM,C.B):T.d_(H.a([T.fg(H.a([U.ji(L.aH(n,A.L(o,o,C.f,o,o,o,o,o,o,o,o,20,o,C.j,o,o,!0,o,o,o,o,o,o,o),o,o),new N.T7(),o),U.ji(L.aH(n,A.L(o,o,C.f,o,o,o,o,o,o,o,o,20,o,C.j,o,o,!0,o,o,o,o,o,o,o),o,o),new N.T8(),o)],q),C.D,C.cM,C.B),p.Fu(l),p.E_()],q),C.D,o,C.cM,C.B)
-return M.bK(o,new T.cl(new V.aN(s,r,s,r),q,o),o,o,new S.cD(m,o,o,o,o,o,C.a3),k*0.4,o,o,l)},
+F:function(a,b){var s,r,q,p,o,n=this,m=null,l="Privacy policy",k="Terms of service",j=t.w,i=b.H(j).f.a.a,h=b.H(j).f.a.b
+j=P.as(C.c.ar(127.5),15,23,56)
+s=i*0.15
+r=h*0.05
+if(i>800){q=t.p
+q=T.d_(H.a([T.fg(H.a([U.ji(L.aH(l,A.L(m,m,C.f,m,m,m,m,m,m,m,m,20,m,C.j,m,m,!0,m,m,m,m,m,m,m),m,m),new N.T5(),m),U.ji(L.aH(k,A.L(m,m,C.f,m,m,m,m,m,m,m,m,20,m,C.j,m,m,!0,m,m,m,m,m,m,m),m,m),new N.T6(),m),n.Fu(i)],q),C.D,C.cM,C.B),n.E_()],q),C.D,m,C.cM,C.B)}else{q=i>420
+p=U.ji(L.aH(l,q?A.L(m,m,C.f,m,m,m,m,m,m,m,m,20,m,C.j,m,m,!0,m,m,m,m,m,m,m):A.L(m,m,C.f,m,m,m,m,m,m,m,m,16,m,C.j,m,m,!0,m,m,m,m,m,m,m),m,m),new N.T7(),m)
+o=t.p
+o=T.d_(H.a([T.fg(H.a([p,U.ji(L.aH(k,q?A.L(m,m,C.f,m,m,m,m,m,m,m,m,20,m,C.j,m,m,!0,m,m,m,m,m,m,m):A.L(m,m,C.f,m,m,m,m,m,m,m,m,16,m,C.j,m,m,!0,m,m,m,m,m,m,m),m,m),new N.T8(),m)],o),C.D,C.cM,C.B),n.Fu(i),n.E_()],o),C.D,m,C.cM,C.B)
+q=o}return M.bK(m,new T.cl(new V.aN(s,r,s,r),q,m),m,m,new S.cD(j,m,m,m,m,m,C.a3),h*0.4,m,m,i)},
 E_:function(){var s=null
 return T.d_(H.a([U.eC("assets/logo/Soundplatform_white_large.png",s,100,300),L.aH("\xa9 2021 All rights reserved",A.L(s,s,C.f,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s,s),s,s)],t.p),C.D,s,C.Y,C.B)},
 Fu:function(a){var s=null,r=a*0.01
@@ -35864,19 +35867,19 @@ i=E.agz(new P.u(j),Z.ez(C.pa,C.f),!1,new X.a5j(l))
 s=Z.ez(C.p8,C.f)
 r=h>430
 if(r)q=A.L(k,k,C.f,k,k,k,k,k,k,k,k,20,k,C.j,k,k,!0,k,k,k,k,k,k,k)
-else q=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,14,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k)
+else q=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,9,k,C.j,k,k,!0,k,k,k,k,k,k,k)
 q=Q.W3(s,new X.a5k(l),L.aH("Home",q,k,k))
 s=Z.ez(C.p6,C.f)
 if(r)p=A.L(k,k,C.f,k,k,k,k,k,k,k,k,20,k,C.j,k,k,!0,k,k,k,k,k,k,k)
-else p=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,14,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k)
+else p=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,9,k,C.j,k,k,!0,k,k,k,k,k,k,k)
 p=Q.W3(s,new X.a5l(l),L.aH("Preview",p,k,k))
 s=Z.ez(C.p4,C.f)
 if(r)o=A.L(k,k,C.f,k,k,k,k,k,k,k,k,20,k,C.j,k,k,!0,k,k,k,k,k,k,k)
-else o=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,14,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k)
+else o=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,9,k,C.j,k,k,!0,k,k,k,k,k,k,k)
 o=Q.W3(s,new X.a5m(l),L.aH("Feature",o,k,k))
 s=Z.ez(C.p9,C.f)
 if(r)r=A.L(k,k,C.f,k,k,k,k,k,k,k,k,20,k,C.j,k,k,!0,k,k,k,k,k,k,k)
-else r=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,14,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k)
+else r=h>375?A.L(k,k,C.f,k,k,k,k,k,k,k,k,12,k,C.j,k,k,!0,k,k,k,k,k,k,k):A.L(k,k,C.f,k,k,k,k,k,k,k,k,9,k,C.j,k,k,!0,k,k,k,k,k,k,k)
 n=t.p
 r=M.bK(k,new T.cl(C.bi,T.d_(H.a([q,p,o,Q.W3(s,new X.a5n(l),L.aH("Pricing",r,k,k))],n),C.D,k,C.jH,C.B),k),k,k,new S.cD(new P.u(j),k,k,new K.cr(new P.bv(40,40),C.a0,new P.bv(40,40),C.a0),k,k,C.a3),g*0.4,k,k,h*0.4)
 s=T.aC(U.eC("assets/home/home_1.jpg",C.cj,k,k),1/0,1/0)
@@ -62119,7 +62122,7 @@ C.cz=new P.az(6e5)
 C.f9=new P.az(75e3)
 C.oG=new P.az(-38e3)
 C.ao=new V.aN(0,0,0,0)
-C.oH=new V.aN(0,0,40,50)
+C.oH=new V.aN(0,0,20,20)
 C.dv=new V.aN(16,0,16,0)
 C.oI=new V.aN(24,0,24,0)
 C.FU=new V.aN(24,20,24,24)
